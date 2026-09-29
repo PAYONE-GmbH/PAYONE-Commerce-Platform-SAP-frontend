@@ -1,0 +1,11 @@
+<div #iframeWrapper class="payone-hosted-tokenization__iframe"></div>
+<button
+  #submitButton
+  type="button"
+  class="payone-hosted-tokenization__submit"
+  [ngClass]="submitButtonClass"
+  [disabled]="phase !== 'READY'"
+  (click)="onSubmit()"
+>
+  {{ submitLabel }}
+</button>

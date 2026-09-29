@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Angular and package build output
+dist/
+out-tsc/
+bazel-out/
+.angular/
+.cache/
+tmp/
+temp/
+*.tsbuildinfo
+
+# Test and coverage output
+coverage/
+test-results/
+playwright-report/
+junit.xml
+__screenshots__/
+
+# Local package artifacts
+*.tgz
+*.tar.gz
+
+# Local registry and environment configuration
+.npmrc
+!.npmrc.example
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.sass-cache/
+.eslintcache
+.history/
+connect.lock
+
+# AI assistant artifacts
+CLAUDE.md
+.claude/

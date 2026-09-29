@@ -1,0 +1,42 @@
+{
+  "name": "payone-composable-storefront-workspace",
+  "version": "0.1.1",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build composable-storefront",
+    "build:dev": "ng build composable-storefront --configuration development",
+    "watch": "ng build composable-storefront --watch --configuration development",
+    "test": "ng test composable-storefront --no-watch",
+    "test:watch": "ng test composable-storefront",
+    "lint": "eslint projects/composable-storefront/src --max-warnings=0",
+    "format:check": "prettier --check .",
+    "pack": "npm run build && npm pack ./dist/composable-storefront",
+    "pack:dry-run": "npm run build && npm pack --dry-run ./dist/composable-storefront"
+  },
+  "private": true,
+  "packageManager": "npm@11.9.0",
+  "dependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@spartacus/cart": "~221121.15.1",
+    "@spartacus/core": "~221121.15.1",
+    "pcp-client-javascript-sdk": "1.4.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.2.20",
+    "@angular/cli": "^21.2.20",
+    "@angular/compiler-cli": "^21.2.0",
+    "angular-eslint": "^21.2.0",
+    "eslint": "^9.39.0",
+    "jsdom": "^28.0.0",
+    "ng-packagr": "^21.2.0",
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.54.0",
+    "vitest": "^4.0.8"
+  }
+}

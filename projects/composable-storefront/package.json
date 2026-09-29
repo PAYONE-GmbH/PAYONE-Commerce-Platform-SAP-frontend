@@ -1,0 +1,25 @@
+{
+  "name": "@payone/composable-storefront",
+  "version": "0.1.1",
+  "description": "PAYONE Hosted Tokenization integration for SAP Commerce Cloud Composable Storefront",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@spartacus/cart": "~221121.15.1",
+    "@spartacus/core": "~221121.15.1",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {
+    "pcp-client-javascript-sdk": "1.4.0",
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "payone",
+    "sap-commerce-cloud",
+    "composable-storefront",
+    "spartacus",
+    "payments"
+  ],
+  "sideEffects": false
+}
